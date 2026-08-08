@@ -215,8 +215,8 @@ endclass`}</pre>
             <h2>Have a DV opportunity or project to discuss?</h2>
           </div>
           <div className="contact-actions">
-            <a className="btn primary" href="mailto:your.email@example.com"><Mail size={16}/> Email</a>
-            <a className="btn secondary" href="https://github.com/yourusername" target="_blank" rel="noreferrer"><Github size={16}/> GitHub</a>
+            <a className="btn primary" href="mailto:akapoor.akk@gmail.com"><Mail size={16}/> Email</a>
+            <a className="btn secondary" href="https://github.com/KapoorAkshit18" target="_blank" rel="noreferrer"><Github size={16}/> GitHub</a>
           </div>
         </section>
       </main>
