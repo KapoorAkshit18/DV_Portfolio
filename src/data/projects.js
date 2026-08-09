@@ -27,14 +27,14 @@ export const projects = [
       "Scoreboard-based checking",
       "Protocol-oriented debug with waveforms"
     ],
-    github: "https://github.com/AkshitKapoor18/axi4lite-uvm",
+    github: "https://github.com/AkshitKapoor18/axi4-lite-uvm-verification",
     status: "Project"
   },
   {
-    title: "APB Master Verification",
+    title: "APB Verification",
     eyebrow: "Interface DV",
     description:
-      "SystemVerilog verification environment for an APB master, including directed and randomized transaction checking.",
+      "SystemVerilog verification environment for an APB, including directed and randomized transaction checking.",
     tags: ["SystemVerilog", "APB", "Assertions", "Coverage"],
     highlights: [
       "APB transaction generation",
@@ -57,39 +57,49 @@ export const projects = [
       "RTL simulation",
       "FPGA implementation workflow"
     ],
-    github: "https://github.com/AkshitKapoor18/16bit-risc-processor",
+    github: "https://github.com/AkshitKapoor18/video-display-processor",
     status: "Project"
   },
-  {
-    title: "Sensor Status Peripheral",
-    eyebrow: "SoC Peripheral DV",
-    description:
-      "Memory-mapped sensor-status peripheral with battery, voltage and temperature registers plus status/alarm logic.",
-    tags: ["SystemVerilog", "RTL", "UVM", "MMIO"],
-    highlights: [
-      "32-bit register interface",
-      "Battery-low threshold logic",
-      "Temperature alarm logic",
-      "Native SoC bus integration and checking"
-    ],
-    github: "https://github.com/AkshitKapoor18/sensor-status-peripheral",
-    status: "Component"
-  },
-  {
-    title: "RF Telemetry Peripheral",
-    eyebrow: "SoC Peripheral DV",
-    description:
-      "Memory-mapped RF telemetry block exposing RSSI and link-status information through the SoC peripheral subsystem.",
-    tags: ["SystemVerilog", "RTL", "UVM", "MMIO"],
-    highlights: [
-      "Memory-mapped register access",
-      "Native slave integration",
-      "Read/write verification",
-      "SoC-level routing checks"
-    ],
-    github: "https://github.com/AkshitKapoor18/rf-telemetry-peripheral",
-    status: "Component"
-  }
+{
+title: "RTL to GDSII Flow of PicoRV32 Core",
+
+eyebrow: "RTL to GDSII • Physical Design Basics",
+
+description:
+"Complete RTL-to-GDSII physical design flow of the PicoRV32 processor core using open-source EDA tools. The project covers RTL synthesis, floorplanning, power planning, placement, clock tree synthesis, routing, timing analysis, physical verification, and final GDSII generation.",
+
+tags: ["RTL-to-GDSII", "Physical Design", "OpenLane", "OpenROAD"],
+
+highlights: [
+"RTL synthesis and gate-level netlist generation",
+"Floorplanning, IO placement, and power distribution network",
+"Standard-cell placement and congestion analysis",
+"Clock tree synthesis (CTS) and clock skew optimization",
+"Global and detailed routing with timing analysis",
+"Setup/hold timing checks and critical-path analysis",
+"DRC/LVS physical verification and final GDSII generation"
+],
+
+github: "https://github.com/AkshitKapoor18/nasscom-vsd-soc-design-workshop",
+
+status: "Physical Design"
+},
+
+  // {
+  //   title: "",
+  //   eyebrow: "SoC Peripheral DV",
+  //   description:
+  //     "Memory-mapped RF telemetry block exposing RSSI and link-status information through the SoC peripheral subsystem.",
+  //   tags: ["SystemVerilog", "RTL", "UVM", "MMIO"],
+  //   highlights: [
+  //     "Memory-mapped register access",
+  //     "Native slave integration",
+  //     "Read/write verification",
+  //     "SoC-level routing checks"
+  //   ],
+  //   github: "https://github.com/AkshitKapoor18/",
+  //   status: "Component"
+  // }
 ];
 
 export const skills = [
