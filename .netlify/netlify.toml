@@ -1,0 +1,30 @@
+functionsDirectory = "C:\\Users\\akshi\\OneDrive\\Documents\\GitHub\\DV_Portfolio\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\akshi\\OneDrive\\Documents\\GitHub\\DV_Portfolio\\dist"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "npm run build"
+functions = "C:\\Users\\akshi\\OneDrive\\Documents\\GitHub\\DV_Portfolio\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
