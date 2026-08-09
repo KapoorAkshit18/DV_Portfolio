@@ -215,7 +215,7 @@ endclass`}</pre>
             <h2>Have a DV opportunity or project to discuss?</h2>
           </div>
           <div className="contact-actions">
-           // <a className="btn primary" href="mailto:akapoor.akk@gmail.com"><Mail size={16}/> Email</a>
+            {/* <a className="btn primary" href="mailto:akapoor.akk@gmail.com"><Mail size={16}/> Email</a> */}
             <a
             className="btn primary"
             href="mailto:akapoor.akk@gmail.com"
