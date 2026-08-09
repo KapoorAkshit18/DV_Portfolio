@@ -57,7 +57,7 @@ export const projects = [
       "RTL simulation",
       "FPGA implementation workflow"
     ],
-    github: "https://github.com/KapoorAkshit18/video-display-processor",
+    github: "https://github.com/KapoorAkshit18/video_display_processor",
     status: "Project"
   },
 {
