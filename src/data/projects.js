@@ -27,7 +27,7 @@ export const projects = [
       "Scoreboard-based checking",
       "Protocol-oriented debug with waveforms"
     ],
-    github: "https://github.com/AkshitKapoor18/axi4-lite-uvm-verification",
+    github: "https://github.com/KapoorAkshit18/axi4-lite-uvm-verification",
     status: "Project"
   },
   {
@@ -42,7 +42,7 @@ export const projects = [
       "Functional coverage",
       "Simulation debug across simulators"
     ],
-    github: "https://github.com/AkshitKapoor18/Design_Verification",
+    github: "https://github.com/KapoorAkshit18/Design_Verification",
     status: "Project"
   },
   {
@@ -57,7 +57,7 @@ export const projects = [
       "RTL simulation",
       "FPGA implementation workflow"
     ],
-    github: "https://github.com/AkshitKapoor18/video-display-processor",
+    github: "https://github.com/KapoorAkshit18/video-display-processor",
     status: "Project"
   },
 {
@@ -80,7 +80,7 @@ highlights: [
 "DRC/LVS physical verification and final GDSII generation"
 ],
 
-github: "https://github.com/AkshitKapoor18/nasscom-vsd-soc-design-workshop",
+github: "https://github.com/KapoorAkshit18/nasscom-vsd-soc-design-workshop",
 
 status: "Physical Design"
 },
